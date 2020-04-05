@@ -22,17 +22,19 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ('Pelican', 'https://blog.getpelican.com/'),
-    ('Link Two', '#'),
-    ('Link Three', '#'),
-    ('Link Four', '#'),
+#    ('Link Two', '#'),
+#    ('Link Three', '#'),
+#    ('Link Four', '#'),
 )
 
 # Social widget
 SOCIAL = (
-    ('Philip Twitter', 'https://twitter.com/timedebtor'),
-    ('Link Two', '#'),
-    ('Link Three', '#'),
-    ('Link Four', '#'),
+    ('Tim', 'https://www.linkedin.com/in/tim-robinson-95392010/'),
+    ('Philip', 'https://twitter.com/timedebtor'),
+    ('Philip', 'https://www.linkedin.com/in/philip-robinson-2878642a/')
+#    ('Link Two', '#'),
+#    ('Link Three', '#'),
+#    ('Link Four', '#'),
 )
 
 DEFAULT_PAGINATION = 7
