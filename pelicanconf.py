@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Tim Robinson'
 SITENAME = 'Red Green & Blog'
-SITEURL = ''
+SITEURL = 'https://probinso.github.io/rgb'
 
 PATH = 'content'
 
@@ -20,16 +20,27 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('Pelican', 'https://blog.getpelican.com/'),
+    ('Link Two', '#'),
+    ('Link Three', '#'),
+    ('Link Four', '#'),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('Philip Twitter', 'https://twitter.com/timedebtor'),
+    ('Link Two', '#'),
+    ('Link Three', '#'),
+    ('Link Four', '#'),
+)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 7
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb.markup']

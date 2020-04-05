@@ -14,7 +14,7 @@ struct['Category'] = 'posts'
 struct['author'] = input('Who is the author? ')
 struct['Summary'] = input('Summary of post: ')
 
-with open(CONTENTDIR / (struct['Slug'] + '.ipynb-meta'), 'w') as fd:
+with open(CONTENTDIR / (struct['Slug'] + '.nbdata'), 'w') as fd:
     yaml.dump(struct, fd)
 
 nb = nbf.v4.new_notebook()
